@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_952fc04b53b7403cbaf5612a23d41911 }}/ghcontainerWebappLnx:${{ github.sha }}
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_952fc04b53b7403cbaf5612a23d41911 }}/ghcontainerwebapplnx:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -48,4 +48,4 @@ jobs:
         app-name: 'ztghcontainerWebappLnx'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_9568457ff0d344e1992f36499606a086 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_952fc04b53b7403cbaf5612a23d41911 }}/ghcontainerWebappLnx:${{ github.sha }}'
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_952fc04b53b7403cbaf5612a23d41911 }}/ghcontainerwebapplnx:${{ github.sha }}'
