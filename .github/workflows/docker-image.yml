@@ -18,6 +18,5 @@ jobs:
       with:
         username: ${{ secrets.REGISTRY_USERNAME }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
-    - run:
-        docker build . --file Dockerfile --tag ztghcontainerwebapplnx:latest
-        docker push ztghcontainerwebapplnx:latest
+    - run: docker build . --file Dockerfile --tag ztghcontainerwebapplnx:latest
+    - run: docker push ztghcontainerwebapplnx:latest
