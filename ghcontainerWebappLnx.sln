@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ghcontainerWebappLnx", "ghcontainerWebappLnx\ghcontainerWebappLnx.csproj", "{3B168705-D9A9-4529-AE93-12746C44EFD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B168705-D9A9-4529-AE93-12746C44EFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B168705-D9A9-4529-AE93-12746C44EFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B168705-D9A9-4529-AE93-12746C44EFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B168705-D9A9-4529-AE93-12746C44EFD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1D76B21-D709-4CFF-9D27-3A5F2ECA9266}
+	EndGlobalSection
+EndGlobal
